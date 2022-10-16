@@ -1,3 +1,6 @@
+
+management.endpoints.web.exposure.include: '*'
+
 spring:
   application.name: scs-100-2
   cloud.function.definition: orderStateStoreProcessor;orderProcess;inventoryCheck;shipping;shippedConsumer
